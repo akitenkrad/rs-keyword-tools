@@ -1,22 +1,18 @@
 use crate::mecab::mecab_tokenize;
 use crate::SRC_JSON;
-use pyo3::prelude::*;
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use serde_json;
-use std::hash::Hasher;
 
 #[cfg(test)]
 mod tests;
 
-#[pyclass(eq, eq_int)]
 #[derive(PartialEq, Debug, Serialize, Deserialize, Clone)]
 pub enum Language {
     English,
     Japanese,
 }
 
-#[pyclass(eq, eq_int)]
 #[derive(PartialEq, Debug, Serialize, Deserialize, Clone)]
 pub enum Category {
     MachineLearning,
@@ -30,7 +26,6 @@ pub enum Category {
     Other,
 }
 
-#[pyclass]
 #[derive(PartialEq, Debug, Serialize, Deserialize, Clone)]
 pub struct Keyword {
     pub word: String,
@@ -40,7 +35,6 @@ pub struct Keyword {
     pub category: Category,
 }
 
-#[pymethods]
 impl Keyword {
     pub fn get_keyword_ptn(&self) -> String {
         // _keyword = self.word.lower().replace("-", r"(\-|\s)*").replace(" ", r"(\s|\-)*")
@@ -58,60 +52,17 @@ impl Keyword {
         );
         return ptn;
     }
-
-    fn __repr__(slf: &Bound<'_, Self>) -> PyResult<String> {
-        Ok(format!(
-            "Keyword(word={}, alias={}, score={}, language={:?}, category={:?})",
-            slf.borrow().word,
-            slf.borrow().alias,
-            slf.borrow().score,
-            slf.borrow().language,
-            slf.borrow().category
-        ))
-    }
-
-    fn __str__(&self) -> String {
-        return format!(
-            "Keyword(word={}, alias={}, score={}, language={:?}, category={:?})",
-            self.word, self.alias, self.score, self.language, self.category
-        );
-    }
-    fn __hash__(&self) -> u64 {
-        let mut hasher = std::collections::hash_map::DefaultHasher::new();
-        hasher.write(&self.word.as_bytes());
-        hasher.write(&self.alias.as_bytes());
-        hasher.write_isize(self.score);
-        return hasher.finish();
-    }
-    fn word(&self) -> String {
-        return self.word.clone();
-    }
-    fn alias(&self) -> String {
-        return self.alias.clone();
-    }
-    fn score(&self) -> isize {
-        return self.score;
-    }
-    fn language(&self) -> String {
-        return format!("{:?}", self.language);
-    }
-    fn category(&self) -> String {
-        return format!("{:?}", self.category);
-    }
 }
 
-#[pyfunction]
 pub fn load_keywords() -> Vec<Keyword> {
     return serde_json::from_slice(SRC_JSON).expect("Unable to parse json");
 }
 
-#[pyfunction]
 pub fn load_keywords_from_rsc(rsc: &str) -> Vec<Keyword> {
     let src_json = std::fs::read_to_string(rsc).expect("Unable to read file");
     return serde_json::from_str(&src_json).expect("Unable to parse json");
 }
 
-#[pyfunction]
 pub fn extract_keywords(text: &str, keywords: Vec<Keyword>, lang: Language) -> Vec<Keyword> {
     let mut extracted_keywords: Vec<Keyword> = Vec::new();
 

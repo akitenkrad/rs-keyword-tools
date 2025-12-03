@@ -11,6 +11,23 @@ repository = "https://github.com/akitenkrad/keywords.git"
 license = "MIT"
 
 [workspace.dependencies]
+async-once-cell = ">=0.5.4"
+csv = ">=1.3.0"
+indicatif = "0.18.3"
+log = "0.4.29"
+once_cell = ">=1.20.2"
+regex = ">=1.11.0"
+reqwest = ">=0.12.8"
+serde = { version = ">=1.0.210", features = ["derive"] }
+serde_derive = ">=1.0.210"
+serde_json = ">=1.0.132"
+tar = ">=0.4.42"
+tokio = { version = ">=1.40.0", features = ["full"] }
+tokio-test = ">=0.4.4"
+vibrato = ">=0.5.1"
+xz2 = ">=0.1.7"
+zstd = ">=0.13.2"
+
 
 [workspace.metadata.release]
 tag-prefix = ""
