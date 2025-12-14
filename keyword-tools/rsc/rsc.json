@@ -9077,5 +9077,467 @@
         "word": "Edge AI",
         "alias": "Edge AI",
         "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "GPT-5",
+        "alias": "GPT-5",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "GPT-5.1",
+        "alias": "GPT-5.1",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "GPT-5.2",
+        "alias": "GPT-5.2",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "o3",
+        "alias": "OpenAI o3",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "o4-mini",
+        "alias": "OpenAI o4-mini",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "Claude Opus 4.5",
+        "alias": "Claude Opus 4.5",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "Claude Sonnet 4.5",
+        "alias": "Claude Sonnet 4.5",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "Claude Haiku 4.5",
+        "alias": "Claude Haiku 4.5",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "SLM",
+        "alias": "Small Language Model",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "Small Language Model",
+        "alias": "Small Language Model",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "Diffusion Language Model",
+        "alias": "Diffusion Language Model",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "GRPO",
+        "alias": "Group Relative Policy Optimization",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "English",
+        "word": "Continuous Batching",
+        "alias": "Continuous Batching",
+        "score": 10
+    },
+    {
+        "category": "MachineLearning",
+        "language": "Japanese",
+        "word": "小規模言語モデル",
+        "alias": "Small Language Model",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Agentic AI",
+        "alias": "Agentic AI",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "AI Agent",
+        "alias": "AI Agent",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "MCP",
+        "alias": "Model Context Protocol",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Model Context Protocol",
+        "alias": "Model Context Protocol",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Deep Research",
+        "alias": "Deep Research",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Reasoning Agent",
+        "alias": "Reasoning Agent",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Computer Use",
+        "alias": "Computer Use",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Prompt Injection",
+        "alias": "Prompt Injection",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Guardrail",
+        "alias": "Guardrail",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "VLM",
+        "alias": "Vision Language Model",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "English",
+        "word": "Vision Language Model",
+        "alias": "Vision Language Model",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "Japanese",
+        "word": "AIエージェント",
+        "alias": "AI Agent",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "Japanese",
+        "word": "プロンプトインジェクション",
+        "alias": "Prompt Injection",
+        "score": 10
+    },
+    {
+        "category": "NaturalLanguageProcessing",
+        "language": "Japanese",
+        "word": "視覚言語モデル",
+        "alias": "Vision Language Model",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "Humanoid Robot",
+        "alias": "Humanoid Robot",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "AI Coding Agent",
+        "alias": "AI Coding Agent",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "AI Safety",
+        "alias": "AI Safety",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "Responsible Scaling",
+        "alias": "Responsible Scaling",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "AI Governance",
+        "alias": "AI Governance",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "AI Alignment",
+        "alias": "AI Alignment",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "Privacy-Preserving AI",
+        "alias": "Privacy-Preserving AI",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "English",
+        "word": "AI for Science",
+        "alias": "AI for Science",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "Japanese",
+        "word": "ヒューマノイドロボット",
+        "alias": "Humanoid Robot",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "Japanese",
+        "word": "AI安全性",
+        "alias": "AI Safety",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "Japanese",
+        "word": "AIガバナンス",
+        "alias": "AI Governance",
+        "score": 10
+    },
+    {
+        "category": "Topic",
+        "language": "Japanese",
+        "word": "AIアライメント",
+        "alias": "AI Alignment",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "AI-Powered Attack",
+        "alias": "AI-Powered Attack",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Deepfake",
+        "alias": "Deepfake",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Dark AI",
+        "alias": "Dark AI",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Adversarial AI",
+        "alias": "Adversarial AI",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Prompt Injection Attack",
+        "alias": "Prompt Injection Attack",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Data Poisoning",
+        "alias": "Data Poisoning",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Credential Harvesting",
+        "alias": "Credential Harvesting",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "IoT Attack",
+        "alias": "IoT Attack",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "Supply Chain Attack",
+        "alias": "Supply Chain Attack",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "English",
+        "word": "AI-generated Social Engineering",
+        "alias": "AI-generated Social Engineering",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "Japanese",
+        "word": "ディープフェイク",
+        "alias": "Deepfake",
+        "score": 10
+    },
+    {
+        "category": "Security",
+        "language": "Japanese",
+        "word": "データポイズニング",
+        "alias": "Data Poisoning",
+        "score": 10
+    },
+    {
+        "category": "Organization",
+        "language": "English",
+        "word": "Anthropic",
+        "alias": "Anthropic",
+        "score": 3
+    },
+    {
+        "category": "Organization",
+        "language": "English",
+        "word": "DeepSeek",
+        "alias": "DeepSeek",
+        "score": 3
+    },
+    {
+        "category": "Organization",
+        "language": "English",
+        "word": "xAI",
+        "alias": "xAI",
+        "score": 3
+    },
+    {
+        "category": "Organization",
+        "language": "English",
+        "word": "Stability AI",
+        "alias": "Stability AI",
+        "score": 3
+    },
+    {
+        "category": "Organization",
+        "language": "English",
+        "word": "Meta AI",
+        "alias": "Meta AI",
+        "score": 3
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "Llama 3",
+        "alias": "Llama 3",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "FLUX",
+        "alias": "FLUX",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "Stable Diffusion 3",
+        "alias": "Stable Diffusion 3",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "SD3",
+        "alias": "Stable Diffusion 3",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "Whisper",
+        "alias": "Whisper",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "Claude Code",
+        "alias": "Claude Code",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "Codex",
+        "alias": "Codex",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "DeepSeek-R1",
+        "alias": "DeepSeek-R1",
+        "score": 10
+    },
+    {
+        "category": "Item",
+        "language": "English",
+        "word": "GPT-4o",
+        "alias": "GPT-4o",
+        "score": 10
     }
 ]
